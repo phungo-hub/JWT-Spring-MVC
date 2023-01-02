@@ -104,7 +104,7 @@ public class WebConfig implements ApplicationContextAware, WebMvcConfigurer {
         dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
         dataSource.setUrl("jdbc:mysql://localhost:3306/jwt_demo?useSSL=false");
         dataSource.setUsername("root");
-        dataSource.setPassword("Minhtri29092014");
+        dataSource.setPassword("admin");
         return dataSource;
     }
 
